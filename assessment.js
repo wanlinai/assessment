@@ -23,7 +23,7 @@ assessmentButton.onclick = () => {
   // 診断結果表示エリアの作成
   removeAllChildren(resultDivided);
   const header = document.createElement('h3');
-  header.innerText = '診断結果';
+  header.innerText = 'Results';
   resultDivided.appendChild(header);
 
   const paragraph = document.createElement('p');
